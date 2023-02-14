@@ -1,8 +1,8 @@
 *{
-   box-sizing: border-box; 
-   padding: 0;
-   margin: 0;
-   list-style: none;
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 html{
     font-size: 62.5%;
@@ -13,8 +13,9 @@ html{
 .header-info{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    padding-left: 15px;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
     background-color: black;
 }
 .header-info__logo img{
@@ -25,7 +26,6 @@ html{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 10px;
     color: white;
     font-size: 2rem;
 }
@@ -40,21 +40,20 @@ html{
 .header-info__gmail p::before{
     display: inline-block;
     content: "";
-    width: 20px;
-    height: 20px;
+    width: 39px;
+    height: 32px;
     background-image: url(./img/phone.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
-    margin-right: 10px;
+    margin-right: 9px;
 }
 .header-info__gmail p::before{
     background-image: url(./img/mensaje-icono.png);
 }
 .header-info__button{
-    width: 157px;
-    height: 32px;
+    width: 154px;
+    height: 29px;
     background-color: #FFF500;
     font-size: 2rem;
     padding: 5px;
