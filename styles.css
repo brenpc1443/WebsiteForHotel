@@ -66,17 +66,33 @@ html{
     justify-content: space-between;
     padding: 24px 70px 39px;
 }
-.header-menu_D{
+.header-menu__name{
     display: flex;
     flex-direction: row;
 }
+
+.header-menu .header-menu__one,
+.header-menu .header-menu__two{
+    width: 12px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu__one{
+    padding-right: 24px;
+}
+
+
 h1{
-    padding-right: 71px;
-    width: 300px;
+    width: 290px;
     height: 58px;
     font-style:italic;
     font-size: 4.8rem;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 .header-menu__description{
     /* font-family: 'Inria Serif', serif; */
+    padding-left: 27px;
 }
