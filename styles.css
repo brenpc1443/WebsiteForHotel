@@ -31,19 +31,23 @@ html{
 }
 .header-info__phone,
 .header-info__gmail{
-    display: flex;
-    flex-direction: row;
     padding: 10px;
     padding-left: 20px;
 }
+.header-info__phone p,
+.header-info__gmail p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
 .header-info__phone p::before,
 .header-info__gmail p::before{
     display: inline-block;
     content: "";
-    width: 39px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     background-image: url(./img/phone.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     margin-right: 9px;
